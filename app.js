@@ -1,4 +1,6 @@
-var num = 10;
-var str = "Hello";
-var bool = true;
-console.log(num);
+// add function 
+function add(a, b) {
+    return a + b;
+}
+var addSum = add('2', 2);
+console.log(addSum);

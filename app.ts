@@ -1,4 +1,6 @@
-const num:number =10;
-const str:string ="Hello";
-const bool:boolean = true;
-console.log(num);
+// add function 
+function add(a:string, b:number) {
+    return a + b;
+}
+let addSum =add('2', 2);
+console.log(addSum);
