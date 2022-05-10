@@ -16,3 +16,7 @@ type RequiredUser = Required<MyUser>;
 /* ========================= Pick Types ================================ */
 type JustEmitName = Pick<MyUser, 'name'>;
 
+/* ========================= Omit Types ================================ */
+
+type JustEmitAddress = Omit<MyUser, 'name'>;
+
