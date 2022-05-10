@@ -13,3 +13,6 @@ type PartialUser = Partial<MyUser>;
 type RequiredUser = Required<MyUser>;
 /* in partialUser type all attributes are required */
 
+/* ========================= Pick Types ================================ */
+type JustEmitName = Pick<MyUser, 'name'>;
+
