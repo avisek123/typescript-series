@@ -1,4 +1,4 @@
-// Look of types 
+// Look of types or index access types 
 interface IMyAdd {
     id: number,
     name: string,
