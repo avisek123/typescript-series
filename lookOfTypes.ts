@@ -8,10 +8,23 @@ interface IMyAdd {
 }
 type IMyCity = {
     city: string
+
 }
 
+/* function one without look-of types  */
+function BankAccount(id: number, name: string, city: IMyCity) {
+    return {
+        id,
+        name,
+        city,
+    }
+}
+type IIMyCity = {
+    city: number
 
-function BankAccount(id: IMyAdd['id'], name: string, city: IMyCity) {
+}
+/* function two with look-of types */
+function Bank(id: number, name: string, city: IMyAdd['city']) {
     return {
         id,
         name,
