@@ -24,4 +24,4 @@ export const origin2: ReadOnly<Point> = {
     z: 0
 }
 /* Readonly can't write  */
-origin2.x = 5
+// origin2.x = 5 - this should give error
